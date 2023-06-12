@@ -1,0 +1,123 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: rgb(15, 148, 141);
+    color: rgba(20, 21, 26, 0.918);
+}
+.container{
+    padding: 20px;
+    box-shadow: 10px 10px 10px 10px;
+    width: auto;
+    display: grid;
+    grid-template-columns: 400px 650px;
+}
+.cote_gauche{
+    padding: 20px;
+    background:rgb(64, 224, 208);
+    width: 400px;
+}
+.cote_droite{
+    padding: 20px;
+    margin-left: 20px;
+    width: 600px;
+    background: white;
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    width: 100%;
+    justify-content: center;
+    border-top: solid 1px rgba(17, 29, 28, 0.281);
+    border-bottom: solid 1px rgba(17, 29, 28, 0.281);
+    /* background: blueviolet; */
+}
+.form-group{
+    margin-right: 10px;
+    max-width: 600px;
+    margin-bottom: 40px;
+    height: 10px;
+}
+.form-group#select{
+    width: 200px;
+}
+input{
+    block-size: 20px;
+    width: 200px;
+    border: none;
+    border-bottom: solid 2px rgba(17, 29, 28, 0.281);
+}
+label{
+    width: 100px;
+}
+.btn-link{
+    margin-top: 20px;
+    justify-content: space-between;
+}
+input#btn-registre{
+    background:rgb(64, 224, 208);
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 10px;
+    width: 20%;
+    height: 25px;
+}
+.page_video{
+    width: 380px;
+    height: 200px;
+}
+.page_video video{
+    width: 100%;
+    height: 100%;
+    background: black;
+    border-radius: 10px;
+}
+.page_video source{
+    width: 100%;
+    height: 100%;
+}
+.page_video audio{
+    width: 100%;
+}
+input#id_color_prefere{
+    width: 100px;
+    margin-top: 20px;
+    border:none;
+    border-radius: 50px;
+    background: black;
+}
+p{
+    font-size: x-small;
+}
+label{
+    font-style: oblique;
+}
+.btn_connecter{
+    background-color: rgb(64, 224, 208);
+    border: none;
+    height: 25px;
+    width: 100px;
+    border-radius: 20px;
+}
+.container_login{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.form_login{
+    margin-top: 200px;
+    border: solid 1px black;
+    line-break: 30px;
+    width: 400px;
+}
+.box2{
+    border: solid 1px black;
+}
+a{
+    text-decoration: none;
+    margin-left: 5px;
+    font:bold ;
+    color: rgb(64, 224, 208);
+}
