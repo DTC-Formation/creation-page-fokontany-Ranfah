@@ -7,10 +7,9 @@ body{
 .container{
     padding: 20px;
     width: auto;
-    height: auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto;
+    grid-auto-rows: max-content;
 }
 .cote_gauche{
     padding: 20px;
