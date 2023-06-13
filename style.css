@@ -9,20 +9,19 @@ body{
     width: auto;
     height: auto;
     display: grid;
-    grid-template-columns: 400px 650px;
+    grid-template-columns: 1fr 2fr;
 }
 .cote_gauche{
     padding: 20px;
     background:rgb(64, 224, 208);
-    width: 400px;
+    width: auto;
     height: auto;
-    border-radius: 20px;
+    border-radius: 20px 0px 0px 20px;
     box-shadow: 0px 0px 7px rgb(15, 48, 44);
 }
 .cote_droite{
     padding: 20px;
-    margin-left: 20px;
-    width: 650px;
+    width: auto;
     height: auto;
     border-radius: 0px 20px 20px 0px;
     background: white;
