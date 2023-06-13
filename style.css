@@ -6,6 +6,8 @@ body{
 }
 .container{
     padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     width: auto;
     height: auto;
     display: grid;
@@ -16,14 +18,14 @@ body{
     padding: 20px;
     background:rgb(64, 224, 208);
     width: auto;
-    height: 600px;
+    height: auto;
     border-radius: 20px 0px 0px 20px;
     box-shadow: 0px 0px 7px rgb(15, 48, 44);
 }
 .cote_droite{
     padding: 20px;
     width: auto;
-    height: 600px;
+    height: auto;
     border-radius: 0px 20px 20px 0px;
     background: white;
     box-shadow: 0px 0px 7px rgb(15, 48, 44)
@@ -32,8 +34,8 @@ form{
     display: flex;
     flex-wrap: wrap;
     margin: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     margin-left: 10px;
     width: 100%;
     justify-content: center;
@@ -60,6 +62,8 @@ label{
     width: 100px;
 }
 .btn-link{
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin-top: 20px;
     justify-content: space-between;
 }
@@ -98,7 +102,8 @@ input#id_color_prefere{
     background: black;
 }
 p{
-    font-size: x-small;
+    padding-top: 20px;
+    font-size: medium;
 }
 label{
     font-style: oblique;
