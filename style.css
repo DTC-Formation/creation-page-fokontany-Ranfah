@@ -6,8 +6,8 @@ body{
 }
 .container{
     padding: 20px;
-    box-shadow: 10px 10px 10px 10px;
     width: auto;
+    height: auto;
     display: grid;
     grid-template-columns: 400px 650px;
 }
