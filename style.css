@@ -10,6 +10,7 @@ body{
     height: auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    grid-row: auto;
 }
 .cote_gauche{
     padding: 20px;
