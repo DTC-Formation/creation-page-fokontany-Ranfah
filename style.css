@@ -84,7 +84,6 @@ input#btn-registre{
 .page_video video{
     width: 100%;
     height: 100%;
-    background: black;
     border-radius: 10px;
 }
 .page_video source{
@@ -99,7 +98,6 @@ input#id_color_prefere{
     margin-top: 20px;
     border:none;
     border-radius: 50px;
-    background: black;
 }
 p{
     padding-top: 20px;
